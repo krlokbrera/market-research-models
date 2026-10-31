@@ -1,0 +1,15 @@
+{
+  "benchmark": "BTC-USD",
+  "annualization": 365,
+  "target_vol": 0.2,
+  "cap": 0.5,
+  "top_n": 2,
+  "rebalance": "weekly",
+  "commission_eur": 0,
+  "spread_bps": 20,
+  "slippage_bps": 15,
+  "fx_bps": 0,
+  "fee_bps": 25,
+  "min_trade_eur": 10,
+  "cash_rate": 0
+}

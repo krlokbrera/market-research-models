@@ -1,0 +1,15 @@
+{
+  "benchmark": "SPY",
+  "annualization": 252,
+  "target_vol": 0.1,
+  "cap": 0.35,
+  "top_n": 3,
+  "rebalance": "monthly",
+  "commission_eur": 1,
+  "spread_bps": 4,
+  "slippage_bps": 3,
+  "fx_bps": 10,
+  "fee_bps": 0,
+  "min_trade_eur": 25,
+  "cash_rate": 0
+}
