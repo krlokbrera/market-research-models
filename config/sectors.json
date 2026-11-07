@@ -1,0 +1,76 @@
+{
+  "currency": "EUR",
+  "benchmark": "IWDA.L",
+  "rotation": {
+    "entry": 60,
+    "exit_score": 40,
+    "limit": 3
+  },
+  "sectors": {
+    "LOCK.L": {
+      "name": "Ciber / seguridad digital",
+      "baseline": true,
+      "issuer_url": "https://www.ishares.com/uk/individual/en/products/297843/ishares-digital-security-ucits-etf-fund"
+    },
+    "WNDU.L": {
+      "name": "Industria",
+      "baseline": true,
+      "issuer_url": "https://www.ssga.com/es/en_gb/institutional/etfs/state-street-spdr-msci-world-industrials-ucits-etf-wind-na"
+    },
+    "WHEA.L": {
+      "name": "Salud / farma",
+      "baseline": true,
+      "issuer_url": "https://www.ssga.com/fr/en_gb/institutional/etfs/state-street-spdr-msci-world-health-care-ucits-etf-whea-na"
+    },
+    "WFIN.L": {
+      "name": "Financieras",
+      "baseline": true,
+      "issuer_url": "https://www.ssga.com/uk/en_gb/institutional/etfs/state-street-spdr-msci-world-financials-ucits-etf-wfin-na"
+    },
+    "WNRG.L": {
+      "name": "Energia",
+      "baseline": true,
+      "issuer_url": "https://www.ssga.com/uk/en_gb/institutional/etfs/state-street-spdr-msci-world-energy-ucits-etf-wnrg-na"
+    },
+    "SMH.L": {
+      "name": "Semiconductores",
+      "baseline": true,
+      "issuer_url": "https://www.vaneck.com/es/es/inversiones/semiconductor-etf"
+    },
+    "WUTI.L": {
+      "name": "Utilities",
+      "baseline": false,
+      "issuer_url": "https://www.ssga.com/uk/en_gb/institutional/etfs/state-street-spdr-msci-world-utilities-ucits-etf-wuti-na"
+    },
+    "WMAT.L": {
+      "name": "Materiales",
+      "baseline": false,
+      "issuer_url": "https://www.ssga.com/uk/en_gb/institutional/etfs/state-street-spdr-msci-world-materials-ucits-etf-wmat-na"
+    },
+    "WCOS.L": {
+      "name": "Consumo basico",
+      "baseline": false,
+      "issuer_url": "https://www.ssga.com/ch/en_gb/institutional/etfs/state-street-spdr-msci-world-consumer-staples-ucits-etf-wcos-na"
+    },
+    "WCOD.L": {
+      "name": "Consumo discrecional",
+      "baseline": false,
+      "issuer_url": "https://www.ssga.com/uk/en_gb/institutional/etfs/state-street-spdr-msci-world-consumer-discretionary-ucits-etf-wcod-na"
+    },
+    "WTEL.L": {
+      "name": "Comunicaciones",
+      "baseline": false,
+      "issuer_url": "https://www.ssga.com/uk/en_gb/institutional/etfs/state-street-spdr-msci-world-communication-services-ucits-etf-wtel-na"
+    },
+    "WTEC.L": {
+      "name": "Tecnologia amplia",
+      "baseline": false,
+      "issuer_url": "https://www.ssga.com/uk/en_gb/institutional/etfs/state-street-spdr-msci-world-technology-ucits-etf-wtch-na"
+    },
+    "GLRA.L": {
+      "name": "Inmobiliario cotizado",
+      "baseline": false,
+      "issuer_url": "https://www.ssga.com/uk/en_gb/intermediary/etfs/state-street-spdr-dow-jones-global-real-estate-ucits-etf-acc-spy2-gy"
+    }
+  }
+}
