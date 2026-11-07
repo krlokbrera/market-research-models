@@ -74,7 +74,10 @@ without --georgia-dir the appendix falls back to Times. Font files are not publi
 
 The appendix needs current editorial sources, issuer verification, theses, risks,
 invalidation conditions and separate crypto analysis before use as a newsletter.
-It is independent of older momentum/Ridge backtest signals. Adjusted prices
+Use the local composer described in [NEWSLETTER.md](NEWSLETTER.md) for the full
+editorial PDF and newsletter HTML, including the same ten sections and the
+Monday-anchored 14-day earnings calendar. The sector PDF remains a quantitative
+appendix. It is independent of older momentum/Ridge backtest signals. Adjusted prices
 already reflect fund expenses; do not subtract TER a second time. Transaction
 costs, spreads, FX, taxes and suitability require separate assessment.
 
