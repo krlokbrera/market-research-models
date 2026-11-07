@@ -2,7 +2,7 @@
 
 Modelos cuantitativos locales para mercado tradicional y cripto, con configuración separada y una interfaz de línea de comandos.
 
-Este repositorio contiene **solo código de modelos, configuración, documentación y pruebas sintéticas**. No incluye informes de inversión, históricos de mercado, resultados de cartera, credenciales ni conectores a cuentas o APIs. No realiza solicitudes de red, telemetría ni operaciones financieras.
+Este repositorio contiene **solo código de modelos y composición editorial, configuración, documentación y pruebas sintéticas**. No incluye informes de inversión, históricos de mercado, resultados de cartera, credenciales ni conectores a cuentas o APIs. No realiza solicitudes de red, telemetría ni operaciones financieras.
 
 ## Modelos incluidos
 
@@ -24,6 +24,8 @@ Los modelos son herramientas de investigación. Las pruebas sintéticas verifica
 | --- | --- |
 | src/market_models/models.py | Modelos y simulación |
 | src/market_models/cli.py | Validación, carga local y ejecución |
+| src/market_models/newsletter.py | Composición local de newsletter y PDF |
+| docs/NEWSLETTER.md | Secciones, calendario de 14 días y contrato editorial |
 | config/traditional.json | Parámetros del mercado tradicional |
 | config/crypto.json | Parámetros independientes de cripto |
 | docs/USAGE.md | Formato de datos y guía de ejecución |
@@ -78,7 +80,7 @@ Edita una copia de config/traditional.json o config/crypto.json y pásala median
 - Ninguna credencial es necesaria o procesada por este paquete.
 - Los archivos de entrada se leen localmente; no se suben ni se modifican.
 - Datos, resultados, cachés y archivos de secretos están excluidos en .gitignore.
-- El manifiesto de cada ejecución conserva parámetros y un hash SHA-256 del archivo de entrada; no incluye su ruta.
+- El manifiesto de cada ejecución de modelos conserva parámetros y un hash SHA-256 del archivo de entrada; no incluye su ruta.
 - Los identificadores de activos se validan para evitar encabezados con fórmulas al exportar CSV.
 - No se usa pickle, eval, ejecución de comandos o carga de código desde la configuración.
 
@@ -94,3 +96,7 @@ El universo elegido puede introducir sesgo de selección. El backtest usa unidad
 ## Radar sectorial dinamico
 
 El filtro compara ETF sectoriales en EUR y conserva seis sectores como baseline de observacion. La configuracion incluye 13 representantes; la lista destacada puede incorporar o retirar sectores cada semana, con umbrales de entrada/salida y motivos auditables. Consulta [SECTOR_REPORTS.md](docs/SECTOR_REPORTS.md) para datos, ejecucion y limites. Los datos, informes y destinatarios permanecen fuera del repositorio.
+
+## Newsletter y PDF completo
+
+El compositor local conserva diez secciones comunes en el correo y el PDF, permite ampliar el PDF y organiza los resultados empresariales en dos semanas desde el lunes. Recibe un brief privado con fuentes verificadas y gráficas locales; no obtiene datos ni envía correo. Consulta [NEWSLETTER.md](docs/NEWSLETTER.md) para el formato, las fuentes y la revisión de lunes y jueves.
