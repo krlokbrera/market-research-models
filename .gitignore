@@ -30,3 +30,10 @@ cache/
 *.pfx
 *.log
 
+
+# Private research and report artifacts
+private/
+reports/
+*.pdf
+*.png
+selection.json
