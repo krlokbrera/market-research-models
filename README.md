@@ -89,3 +89,8 @@ El ignore no sustituye una revisión antes de publicar. Mantén fuera del reposi
 La lógica se ha probado con series sintéticas. No se publica un historial de rentabilidad real ni se afirma que un modelo supere al mercado.
 
 El universo elegido puede introducir sesgo de selección. El backtest usa unidades fraccionarias de retorno total, costes supuestos y caja sin deuda; no incorpora impuestos personales, aportaciones, pérdidas por custodia, financiación, staking o derivados. Una volatilidad objetivo no limita las pérdidas. Los escenarios de bootstrap no son probabilidades objetivas del futuro.
+
+
+## Radar sectorial dinamico
+
+El filtro compara ETF sectoriales en EUR y conserva seis sectores como baseline de observacion. La configuracion incluye 13 representantes; la lista destacada puede incorporar o retirar sectores cada semana, con umbrales de entrada/salida y motivos auditables. Consulta [SECTOR_REPORTS.md](docs/SECTOR_REPORTS.md) para datos, ejecucion y limites. Los datos, informes y destinatarios permanecen fuera del repositorio.
